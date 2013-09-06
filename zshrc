@@ -159,6 +159,21 @@ bindkey "^P" history-beginning-search-backward-end
 bindkey "^N" history-beginning-search-forward-end
 
 ########################################
+#tmuxの設定
+########################################
+
+#tmuxの自動起動
+if [ -z "$PS1" ] ; then return ; fi
+
+if [ -z $TMUX ] ; then
+        if [ -z `tmux ls` ] ; then
+                tmux
+        else
+                tmux attach
+        fi
+fi
+
+########################################
 # rbenvの設定
 ########################################
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi 
