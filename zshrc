@@ -125,7 +125,7 @@ case ${UID} in
         PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
     ;;
 *)
-    PROMPT="%{[31m%}%n%%%{[m%} "
+    PROMPT="%{[36m%}%n%%%{[m%} "
     RPROMPT="%1(v|%F{green}%1v%f|) [%~]"
     PROMPT2="%{[31m%}%_%%%{[m%} "
     SPROMPT="%{[31m%}%r is correct? [n,y,a,e]:%{[m%} "
