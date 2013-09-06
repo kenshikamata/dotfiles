@@ -1,10 +1,10 @@
-" basic setting
+"basic setting
 set number
 set autoindent
 set tabstop=4
 set syntax=on
 
-" bracket complement
+"bracket complement
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
