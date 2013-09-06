@@ -2,7 +2,7 @@
 set number
 set autoindent
 set tabstop=4
-set syntax=on
+syntax on
 
 "bracket complement
 inoremap { {}<LEFT>
