@@ -24,4 +24,8 @@ do
         rm -rf ~/.$dotfile
     fi
     ln -s `pwd`/$dotfile ~/.$dotfile
+    if [[ $dotfile =~ "rc$|conf$" ]]; then
+	source ~/.$dotfile
+	echo "${dotfile} is reloaded."
+    fi
 done
