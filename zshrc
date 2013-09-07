@@ -167,7 +167,7 @@ if [ -z "$PS1" ] ; then return ; fi
 
 if [ -z $TMUX ] ; then
         if [ -z `tmux ls` ] ; then
-                tmux
+                tmux -f ~/.tmux.conf
         else
                 tmux attach
         fi
