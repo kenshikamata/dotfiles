@@ -7,7 +7,7 @@ set tabstop=4
 set syntax=on
 
 inoremap { {}<LEFT>
-" inoremap [ []<LEFT>
+inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
