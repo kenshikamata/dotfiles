@@ -18,3 +18,7 @@ vnoremap ' "zdi'<C-R>z'<ESC>
 
 "set no vi compatible
 set nocompatible
+
+"show white spaces
+set list
+""set listchars=tab:-,trail:-
