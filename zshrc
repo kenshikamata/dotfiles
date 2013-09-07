@@ -173,6 +173,11 @@ if [ -z $TMUX ] ; then
         fi
 fi
 
+# tmuxのキープレフィクスをCtrl+tに変更
+function tmux-reset-prefix(){
+    tmux-set-prefix C-t
+}
+
 ########################################
 # rbenvの設定
 ########################################
