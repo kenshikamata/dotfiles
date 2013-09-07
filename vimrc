@@ -4,7 +4,7 @@ set fileencoding=utf-8
 set number
 set autoindent
 set tabstop=4
-set syntax=on
+syntax on
 
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
@@ -19,4 +19,3 @@ vnoremap ' "zdi'<C-R>z'<ESC>
 
 set nocompatible
 
-set list
