@@ -4,7 +4,7 @@ while getopts vtza option
 do
     case $option in
         "v" )
-            list=("vim" "vimrc")
+            list=("vimrc")
             ;;
         "z" )
             list=("zsh" "zshrc")
