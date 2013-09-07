@@ -7,11 +7,11 @@
 * then my dotfiles will be installed.
 ## options
 * `-v`
-** only vim settings will install
+	* only vim settings will install
 * `-z`
-** only zsh setting will install
+	* only zsh setting will install
 * `-t`
-** tmux setting will install
+	* tmux setting will install
 * `-a`
-** vim, zsh, tmux, all setting will install
+	* vim, zsh, tmux, all setting will install
 
