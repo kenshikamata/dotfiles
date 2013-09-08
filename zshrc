@@ -61,6 +61,10 @@ alias -g L="| lv"
 alias -g NL=">/dev/null"
 alias -g NLL=">/dev/null 2>&1"
 
+#ssh系
+alias ssh_110='ssh kamata@192.168.56.110'
+alias ssh_111='ssh kamata@192.168.56.111'
+
 ########################################
 #文字コード変換
 ########################################
