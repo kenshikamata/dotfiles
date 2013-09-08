@@ -1,3 +1,4 @@
+set nocompatible
 set enc=utf8
 set termencoding=utf-8
 set fileencoding=utf-8
@@ -17,5 +18,5 @@ vnoremap ( "zdi^V(<C-R>z)<ESC>
 vnoremap " "zdi^V"<C-R>z^V"<ESC>
 vnoremap ' "zdi'<C-R>z'<ESC>
 
-set nocompatible
-
+set ignorecase
+set smartcase
