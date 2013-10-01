@@ -18,5 +18,16 @@ vnoremap ( "zdi^V(<C-R>z)<ESC>
 vnoremap " "zdi^V"<C-R>z^V"<ESC>
 vnoremap ' "zdi'<C-R>z'<ESC>
 
+
+" search 
+set wrapscan
 set ignorecase
 set smartcase
+set hlsearch
+set incsearch
+
+" moving
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-h> <Left>
+inoremap <C-l> <Right>
