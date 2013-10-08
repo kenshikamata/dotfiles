@@ -5,6 +5,7 @@ set fileencoding=utf-8
 set number
 set autoindent
 set tabstop=4
+set expandtab
 syntax on
 
 inoremap { {}<LEFT>
