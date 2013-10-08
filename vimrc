@@ -53,3 +53,13 @@ if neobundle#exists_not_installed_bundles()
     echomsg 'Please execute ":NeoBundleInstall" command.'
     "finish
 endif
+
+
+
+" Let NeoBundle manage NeoBundle
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" Recommended to install
+" After install, turn shell ~/.vim/bundle/vimproc, (n,g)make -f your_machines_makefile
+NeoBundle 'Shougo/vimproc'
+NeoBundle 'scrooloose/nerdtree'
