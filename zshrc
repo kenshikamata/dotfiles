@@ -187,4 +187,5 @@ function tmux-reset-prefix(){
 ########################################
 # rbenvの設定
 ########################################
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi 
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
