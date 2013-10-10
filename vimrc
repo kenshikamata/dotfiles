@@ -39,12 +39,11 @@ set nocompatible               " Be iMproved
 filetype off                   " Required!
 
 if has('vim_starting')
-    set runtimepath+=~/.vim/bundle/neobundle.vim/
+    set runtimepath+=~/.vim/bundle/neobundle.vim
 endif
 
 call neobundle#rc(expand('~/.vim/bundle/'))
 
-filetype plugin indent on     " Required!
 
 " Installation check.
 if neobundle#exists_not_installed_bundles()
@@ -63,3 +62,5 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " After install, turn shell ~/.vim/bundle/vimproc, (n,g)make -f your_machines_makefile
 NeoBundle 'Shougo/vimproc'
 NeoBundle 'scrooloose/nerdtree'
+
+filetype plugin indent on     " Required!
