@@ -45,16 +45,6 @@ endif
 call neobundle#rc(expand('~/.vim/bundle/'))
 
 
-" Installation check.
-if neobundle#exists_not_installed_bundles()
-    echomsg 'Not installed bundles : ' .
-        \ string(neobundle#get_not_installed_bundle_names())
-    echomsg 'Please execute ":NeoBundleInstall" command.'
-    "finish
-endif
-
-
-
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 
@@ -64,3 +54,11 @@ NeoBundle 'Shougo/vimproc'
 NeoBundle 'scrooloose/nerdtree'
 
 filetype plugin indent on     " Required!
+
+" Installation check.
+if neobundle#exists_not_installed_bundles()
+    echomsg 'Not installed bundles : ' .
+        \ string(neobundle#get_not_installed_bundle_names())
+    echomsg 'Please execute ":NeoBundleInstall" command.'
+    "finish
+endif
