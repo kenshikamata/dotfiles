@@ -1,4 +1,3 @@
 resize-pane
 *.swp
 .netrwhist
-./vim/bundle/.neobundle/install_info
